@@ -104,14 +104,13 @@ function Checkout() {
   })
   
   useEffect(() => {
-  // Si el carrito está vacío y el Checkout está abierto, ciérralo
     if (items.length === 0 && isCheckoutOpen) {
       cerrarCheckout()
     }
   }, [items, isCheckoutOpen, cerrarCheckout])
 
   const onSubmit = (data) => {
-    // 1. Construir el mensaje SIN emojis
+    // 1. Construir el mensaje
     const mensaje = `
 *PEDIDO WEB* - La boutique d'Evangeline
 
@@ -141,16 +140,16 @@ ${items.map((item) =>
     // 2. Codificar el mensaje para URL
     const mensajeCodificado = encodeURIComponent(mensaje)
 
-    // 3. Número de WhatsApp (⚠️ REEMPLAZAR POR EL REAL)
+    // 3. Número de WhatsApp
     const numeroWhatsApp = '56950194319'
 
     // 4. Abrir WhatsApp en nueva pestaña
     window.open(`https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`, '_blank')
 
-    // Limpiar el formulario
+    // 5. Limpiar el formulario
     reset()
 
-    // 5. Limpiar el carrito y cerrar el checkout
+    // 6. Limpiar el carrito y cerrar el checkout
     useCarritoStore.getState().limpiarCarrito()
     cerrarCheckout()
   }
@@ -363,8 +362,8 @@ ${items.map((item) =>
 
             </div>
 
-            {/* Botón Hacer el pedido (sticky en móvil) */}
-            <div className="sticky bottom-0 bg-white pt-4 mt-4 border-t border-pink-200 md:static md:border-0 md:pt-0 md:mt-4">
+            {/* Botón Hacer el pedido (sin sticky) */}
+            <div className="pt-4 mt-4 border-t border-pink-200">
               <button
                 type="submit"
                 disabled={items.length === 0}
