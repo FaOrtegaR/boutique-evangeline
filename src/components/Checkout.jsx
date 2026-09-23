@@ -141,7 +141,7 @@ ${items.map((item) =>
     const mensajeCodificado = encodeURIComponent(mensaje)
 
     // 3. Número de WhatsApp
-    const numeroWhatsApp = '56950194319'
+    const numeroWhatsApp = '56975880432'
 
     // 4. Abrir WhatsApp en nueva pestaña
     window.open(`https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`, '_blank')
