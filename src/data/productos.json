@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nombre": "Vaquita de Peluche",
+    "precio": 10000,
+    "imagenes": ["vaquita-1.jpg", "vaquita-2.jpg"],
+    "descripcionCorta": "Suavecita, tierna y adorable. ¡Simula que corre!",
+    "descripcionLarga": "Suavecita, tierna y demasiado adorable 🥹✨\n¡Y lo mejor es que simula que corre! 🐮💨 Una vaquita que definitivamente llama la atención jajaja 💕\n\n🎀 45 cm\n\nPerfecta para regalar 🎁, coleccionar o simplemente tener una nueva compañerita para abrazar 💕",
+    "categoria": "Peluches",
+    "destacado": true
+  },
+  {
+    "id": 2,
+    "nombre": "SKIN1004 Madagascar Centella Ampoule 100ml",
+    "precio": 10000,
+    "imagenes": ["skin1004-ampoule-1.jpg", "skin1004-ampoule-2.jpg"],
+    "descripcionCorta": "Ampolla de textura ligera para calmar e hidratar la piel.",
+    "descripcionLarga": "SKIN1004 Madagascar Centella Ampoule 100 ml, una ampolla de textura ligera ideal para sumar a tu rutina de skincare. 🫧🌿\n\n💗 ¿Por qué amarla?\n🌿 Elaborada con extracto de Centella Asiática de Madagascar\n✨ Ayuda a calmar y cuidar la piel sensible o irritada\n💧 Aporta hidratación y ayuda a fortalecer la barrera de la piel\n🌸 Ideal para piel con resequedad, deshidratación o enrojecimiento\n🫧 Textura acuosa, ligera y de rápida absorción, sin sensación pegajosa\n💕 Apta para todo tipo de piel, especialmente seca y sensible\n\n🧴 ¿Cómo usarla?\nDespués de limpiar y tonificar, aplica unas gotitas sobre el rostro y masajea suavemente hasta absorber. Luego continúa con tu hidratante y, durante el día, protector solar. ☀️\n\n🌿 100 ml",
+    "categoria": "Skincare",
+    "destacado": true
+  },
+  {
+    "id": 3,
+    "nombre": "Gaviota LED con Sonido",
+    "precio": 3000,
+    "imagenes": ["gaviota-1.jpg", "gaviota-2.jpg"],
+    "descripcionCorta": "Llavero con luz LED y sonido de gaviota. ¡Recargable por USB-C!",
+    "descripcionLarga": "Si conoces a las famosas gaviotas de Buscando a Nemo, ya sabes por dónde va la cosa… 😂\n\n✨ ¡Presiónalo y comienza la diversión!\n💡 Se ilumina con luz LED\n🔊 Hace el divertido sonido de la gaviota\n🔋 Recargable mediante conector USB-C\n🔑 Puedes llevarlo en tus llaves, mochila o cartera\n😂 Un detalle original y perfecto para sacar unas risas\n\nIdeal para regalar 🎁 o para los fanáticos de las cositas random y virales 💕",
+    "categoria": "Accesorios",
+    "destacado": false
+  },
+  {
+    "id": 4,
+    "nombre": "Panda de Peluche",
+    "precio": 10000,
+    "imagenes": ["panda-1.jpg"],
+    "descripcionCorta": "Suavecito, tierno y adorable. ¡Simula que corre!",
+    "descripcionLarga": "Suavecito, tierno y demasiado adorable 🥹✨\n¡Y lo mejor es que simula que corre! 🐼💨 Un panda que definitivamente llama la atención jajaja 💕\n\n🎀 45 cm\n\nPerfecto para regalar 🎁, coleccionar o simplemente tener un nuevo compañerito para abrazar 💕",
+    "categoria": "Peluches",
+    "destacado": false
+  },
+  {
+    "id": 5,
+    "nombre": "Set de Ampollas SKIN1004 Madagascar Centella",
+    "precio": 20000,
+    "imagenes": ["set-ampollas-1.jpg", "set-ampollas-2.jpg"],
+    "descripcionCorta": "Set de 4 mini ampollas para probar la línea SKIN1004.",
+    "descripcionLarga": "🌿 Set de Ampollas SKIN1004 Madagascar Centella 🌿\n\nUn hermoso set con 4 mini ampollas para darle a tu piel distintos tipos de cuidado 💕 Ideal para probar la línea SKIN1004 y descubrir cuál se adapta mejor a tu piel.\n\n💧 ¿Para qué sirve cada una?\n\n🤍 Centella Ampoule\nAyuda a hidratar, calmar y cuidar la piel sensible. Su ingrediente principal es la Centella Asiática de Madagascar.\n\n🌸 Tone Brightening Capsule Ampoule\nAyuda a mejorar la apariencia del tono desigual, aportar luminosidad y mantener la piel hidratada. Contiene niacinamida y ácido tranexámico.\n\n💗 Tea-Trica Relief Ampoule\nPensada para piel con exceso de oleosidad o tendencia a imperfecciones. Ayuda a calmar la piel y a cuidar la apariencia de los poros.\n\n🌿 Poremizing Fresh Ampoule\nAyuda con el cuidado de los poros y el exceso de oleosidad, dejando una sensación fresca y ligera.\n\n🎁 ¿Qué incluye?\n✨ 1 set con 4 mini ampollas SKIN1004\n✨ Formato ideal para probar diferentes productos o llevar de viaje.",
+    "categoria": "Skincare",
+    "destacado": false
+  },
+  {
+    "id": 6,
+    "nombre": "Biodance Real Deep Mask",
+    "precio": 4000,
+    "imagenes": ["biodance-1.jpg", "biodance-2.jpg", "biodance-3.jpg"],
+    "descripcionCorta": "Mascarillas de hidrogel coreanas. Disponibles en 3 tipos.",
+    "descripcionLarga": "🌸 Biodance Real Deep Mask 🌸\n\nMascarillas de hidrogel coreanas con esencia concentrada, ideales para darle a tu piel un tratamiento intensivo de hidratación y cuidado ✨\n\nTenemos diferentes tipos según lo que tu piel necesite 💆🏻‍♀️💕\n\n💗 ROSADA – Bio-Collagen Real Deep Mask\n✨ Hidratación intensa\n✨ Ayuda a mejorar la apariencia de los poros\n✨ Aporta luminosidad y sensación de piel más firme\n✨ Ideal como tratamiento general para dejar la piel suave y luminosa.\n\n💜 MORADA – Rejuvenating Caviar PDRN Real Deep Mask\n✨ Cuidado regenerador y nutritivo\n✨ Ayuda a mejorar la apariencia de la elasticidad\n✨ Aporta hidratación y luminosidad\n✨ Ideal para piel que se ve cansada, opaca o con pérdida de firmeza.\nContiene complejo de caviar y PDRN.\n\n💚 VERDE – Refreshing Sea Kelp Real Deep Mask\n✨ Ideal para piel grasa o con tendencia a imperfecciones\n✨ Ayuda a equilibrar la oleosidad\n✨ Calma la apariencia de enrojecimiento e irritación\n✨ Deja una sensación fresca y ligera.\nSu fórmula contiene fermento de algas marinas y agua de mar profunda.",
+    "categoria": "Skincare",
+    "destacado": true
+  },
+  {
+    "id": 7,
+    "nombre": "SKIN1004 Poremizing Quick Clay Stick Mask",
+    "precio": 12000,
+    "imagenes": ["clay-stick-1.jpg", "clay-stick-2.jpg"],
+    "descripcionCorta": "Mascarilla de arcilla en barra de 27 g. Limpieza profunda.",
+    "descripcionLarga": "🌿 SKIN1004 Madagascar Centella Poremizing Quick Clay Stick Mask 🌿\n\n🧖🏻‍♀️ Mascarilla de arcilla en barra de 27 g\n\n¿Tienes poros visibles, exceso de grasita o sientes la piel congestionada? 👀 Esta mascarilla ayuda a realizar una limpieza profunda, absorber el exceso de sebo y mejorar la apariencia de los poros, dejando la piel más fresca y suave.\n\n🌿 ¿Qué tiene?\n\n✨ Centella Asiática de Madagascar → ayuda a calmar y cuidar la piel.\n✨ Arcillas → ayudan a absorber el exceso de sebo y limpiar impurezas.\n✨ Polvo de frijol rojo → contribuye a una exfoliación suave.\n✨ Aloe vera → aporta hidratación y confort.\n\n💚 ¿Cómo se usa?\n\n1️⃣ Lava y seca bien tu rostro.\n2️⃣ Desliza la barra directamente sobre la piel, evitando el contorno de ojos y labios.\n3️⃣ Déjala actuar aproximadamente 3–5 minutos.\n4️⃣ Enjuaga con agua tibia.\n5️⃣ Continúa con tu rutina de hidratación.\n\n📅 Puedes utilizarla 1–2 veces por semana, según las necesidades de tu piel.",
+    "categoria": "Skincare",
+    "destacado": false
+  },
+  {
+    "id": 8,
+    "nombre": "SKIN1004 Tone Brightening Capsule Ampoule",
+    "precio": 10000,
+    "imagenes": ["tone-brightening-1.jpg", "tone-brightening-2.jpg"],
+    "descripcionCorta": "Ampolla antimanchas 100 ml. Ilumina y unifica el tono.",
+    "descripcionLarga": "🌿 SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule 🌿\n\n💧 Ampolla antimanchas 100 ml\n\n¿Buscas una piel más luminosa y con un tono más uniforme? ✨ Esta ampolla está formulada con ingredientes como niacinamida, ácido tranexámico, Centella Asiática y un derivado estable de vitamina C, que ayudan a mejorar la apariencia de manchas, tono desigual y piel apagada.\n\n🌸 ¿Qué aporta?\n\n✨ Ayuda a mejorar la apariencia de manchas y pigmentación\n✨ Ayuda a unificar visualmente el tono de la piel\n✨ Aporta luminosidad\n✨ Ayuda a mantener la piel hidratada\n✨ Su textura es ligera y de rápida absorción\n✨ La Centella Asiática ayuda a calmar y cuidar la piel.\n\n💚 ¿Cómo se usa?\n\n1️⃣ Limpia tu rostro y aplica tu tónico.\n2️⃣ Aplica unas gotas de la ampolla sobre rostro y cuello.\n3️⃣ Distribuye suavemente y da pequeños toquecitos hasta que se absorba.\n4️⃣ Continúa con tu crema hidratante.\n5️⃣ ☀️ Si la utilizas durante el día, termina siempre con protector solar.\n\nPuede utilizarse diariamente, mañana y/o noche.\n\n🧴 Contenido: 100 ml",
+    "categoria": "Skincare",
+    "destacado": false
+  },
+  {
+    "id": 9,
+    "nombre": "SKIN1004 Madagascar Centella Travel Kit",
+    "precio": 15000,
+    "imagenes": ["travel-kit-1.jpg", "travel-kit-2.jpg"],
+    "descripcionCorta": "Set de cuidado facial de 5 pasos. Ideal para viaje.",
+    "descripcionLarga": "✨ SKIN1004 MADAGASCAR CENTELLA TRAVEL KIT ✨\n🌿 Set de cuidado facial de 5 pasos con Centella Asiática de Madagascar.\n\nIdeal para probar la rutina SKIN1004 o llevar tus productos favoritos de viaje ✈️💗\n\n🧴 ¿Cómo se usa?\n\n1️⃣ Limpiador 🫧\nAplica sobre el rostro húmedo, masajea suavemente y enjuaga.\n\n2️⃣ Tónico 💦\nDespués de limpiar, aplica sobre el rostro con las manos y da suaves toquecitos.\n\n3️⃣ Ampolla 🌿\nAplica unas gotas sobre el rostro y masajea hasta absorber.\n\n4️⃣ Crema hidratante 🤍\nAplica una pequeña cantidad para hidratar y sellar la rutina.\n\n5️⃣ Protector solar ☀️\nÚsalo como último paso de la rutina durante el día. Reaplica según sea necesario.",
+    "categoria": "Skincare",
+    "destacado": false
+  },
+  {
+    "id": 10,
+    "nombre": "Set NIDA Hidratación y Revitalización",
+    "precio": 10000,
+    "imagenes": ["nida-1.jpg"],
+    "descripcionCorta": "Dúo de crema hidratante y contorno de ojos revitalizante.",
+    "descripcionLarga": "✨ SET NIDA HIDRATACIÓN Y REVITALIZACIÓN ✨\n\n💗 ¡Dúo ideal para complementar tu rutina de skincare!\n\n🧴 Crema hidratante\nAyuda a mantener la piel hidratada, suave y confortable.\n👉 Aplicar sobre el rostro limpio y masajear suavemente hasta absorber.\n\n👀 Contorno de ojos revitalizante\nIdeal para cuidar y refrescar la delicada zona del contorno de ojos.\n👉 Aplicar una pequeña cantidad alrededor de los ojos y dar suaves toquecitos hasta absorber.\n\n✨ Perfecto para una rutina sencilla de hidratación y cuidado diario.\n\n🎀 ¡Llévate ambos productos en un solo set!",
+    "categoria": "Skincare",
+    "destacado": false
+  },
+  {
+    "id": 11,
+    "nombre": "Peluche Frutilla Musical",
+    "precio": 8000,
+    "imagenes": ["frutilla-1.jpg", "frutilla-2.jpg"],
+    "descripcionCorta": "Peluche de frutilla que reproduce música al tocarlo.",
+    "descripcionLarga": "🍓🎶 ¡PELUCHE FRUTILLA MUSICAL! 🎶🍓\n\n✨ ¡El peluchito que está de moda! ✨\n\nEste adorable peluche de frutilla toma de las manos y al tocar su cuerpo comienza a reproducir música 🎵🥰\n\n🍓 Suave y adorable\n🎶 ¡Produce música al tocarlo!\n🤝 Se agarra de las manitos\n🎁 Ideal para regalar o sorprender a los peques\n\n🍓💕 ¡Llévate tu frutillita musical!",
+    "categoria": "Peluches",
+    "destacado": false
+  }
+]
