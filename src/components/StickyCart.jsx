@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useCarritoStore } from '../store/carritoStore'
 
 function StickyCart() {
   const { items, totalItems, totalPrecio, abrirCheckout, isCheckoutOpen, cerrarCheckout } = useCarritoStore()
   const [isVisible, setIsVisible] = useState(true)
+  const timeoutRef = useRef(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,10 +18,15 @@ function StickyCart() {
 
       setIsVisible(!cercaDelFinal)
 
-      // 👇 Solo cierra el Checkout si el usuario está MUY arriba (en el catálogo)
-      // El valor 2000px es un ejemplo. Ajusta según la altura de tu página.
-      if (scrollY < 2000 && isCheckoutOpen) {
-        cerrarCheckout()
+      // 👇 Solo cerramos el Checkout si el usuario hace scroll hacia arriba Y está en el catálogo
+      // Usamos un timeout para no cerrarlo en el mismo instante en que se abre
+      if (scrollY < 1000 && isCheckoutOpen) {
+        clearTimeout(timeoutRef.current)
+        timeoutRef.current = setTimeout(() => {
+          cerrarCheckout()
+        }, 500) // Espera 500ms antes de cerrar
+      } else {
+        clearTimeout(timeoutRef.current)
       }
     }
 
@@ -31,6 +37,7 @@ function StickyCart() {
     return () => {
       window.removeEventListener('scroll', handleScroll)
       window.removeEventListener('resize', handleScroll)
+      clearTimeout(timeoutRef.current)
     }
   }, [isCheckoutOpen, cerrarCheckout])
 
