@@ -1,10 +1,9 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useCarritoStore } from '../store/carritoStore'
 
 function StickyCart() {
   const { items, totalItems, totalPrecio, abrirCheckout, isCheckoutOpen, cerrarCheckout } = useCarritoStore()
   const [isVisible, setIsVisible] = useState(true)
-  const prevScrollY = useRef(0)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,13 +17,11 @@ function StickyCart() {
 
       setIsVisible(!cercaDelFinal)
 
-      // Si el usuario hace scroll hacia ARRIBA y el Checkout está abierto, ciérralo
-      const scrollHaciaArriba = scrollY < prevScrollY.current
-      if (scrollHaciaArriba && isCheckoutOpen && !cercaDelFinal) {
+      // 👇 Solo cierra el Checkout si el usuario está MUY arriba (en el catálogo)
+      // El valor 2000px es un ejemplo. Ajusta según la altura de tu página.
+      if (scrollY < 2000 && isCheckoutOpen) {
         cerrarCheckout()
       }
-
-      prevScrollY.current = scrollY
     }
 
     handleScroll()
