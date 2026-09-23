@@ -2,36 +2,28 @@ import { useState, useEffect } from 'react'
 import { useCarritoStore } from '../store/carritoStore'
 
 function StickyCart() {
-  const { items, totalItems, totalPrecio, abrirCheckout, isCheckoutOpen } = useCarritoStore()
+  const { items, totalItems, totalPrecio, abrirCheckout, isCheckoutOpen, cerrarCheckout } = useCarritoStore()
   const [isVisible, setIsVisible] = useState(true)
 
   useEffect(() => {
     const handleScroll = () => {
-      const checkoutSection = document.getElementById('checkout')
-      const footerSection = document.querySelector('footer')
-      
-      // Si no existen las secciones, mostrar la barra
-      if (!checkoutSection || !footerSection) {
-        setIsVisible(true)
-        return
-      }
-
       const scrollY = window.scrollY
       const windowHeight = window.innerHeight
-      const checkoutTop = checkoutSection.offsetTop
-      const footerTop = footerSection.offsetTop
+      const documentHeight = document.documentElement.scrollHeight
 
-      // Ocultar la barra si el scroll está dentro del Checkout o del Footer
-      const enCheckout = scrollY + windowHeight > checkoutTop
-      const enFooter = scrollY + windowHeight > footerTop
+      // Si el usuario está a menos de 800px del final de la página, ocultar la barra
+      const distanciaAlFinal = documentHeight - (scrollY + windowHeight)
+      const cercaDelFinal = distanciaAlFinal < 800
 
-      setIsVisible(!enCheckout && !enFooter)
+      setIsVisible(!cercaDelFinal)
+
+      // 👇 NUEVO: Si el usuario está lejos del final (en el catálogo) y el Checkout está abierto, ciérralo
+      if (!cercaDelFinal && isCheckoutOpen) {
+        cerrarCheckout()
+      }
     }
 
-    // Ejecutar al inicio
     handleScroll()
-
-    // Escuchar el scroll
     window.addEventListener('scroll', handleScroll)
     window.addEventListener('resize', handleScroll)
 
@@ -39,12 +31,8 @@ function StickyCart() {
       window.removeEventListener('scroll', handleScroll)
       window.removeEventListener('resize', handleScroll)
     }
-  }, [])
+  }, [isCheckoutOpen, cerrarCheckout])
 
-  // No mostrar si:
-  // - El carrito está vacío
-  // - El Checkout está abierto (isCheckoutOpen)
-  // - El usuario está en el Checkout o Footer (isVisible)
   if (items.length === 0 || isCheckoutOpen || !isVisible) return null
 
   return (
