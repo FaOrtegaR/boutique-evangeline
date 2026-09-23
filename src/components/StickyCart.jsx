@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useCarritoStore } from '../store/carritoStore'
 
 function StickyCart() {
   const { items, totalItems, totalPrecio, abrirCheckout, isCheckoutOpen, cerrarCheckout } = useCarritoStore()
   const [isVisible, setIsVisible] = useState(true)
+  const prevScrollY = useRef(0)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -11,16 +12,19 @@ function StickyCart() {
       const windowHeight = window.innerHeight
       const documentHeight = document.documentElement.scrollHeight
 
-      // Si el usuario está a menos de 800px del final de la página, ocultar la barra
+      // Distancia al final de la página
       const distanciaAlFinal = documentHeight - (scrollY + windowHeight)
       const cercaDelFinal = distanciaAlFinal < 800
 
       setIsVisible(!cercaDelFinal)
 
-      // 👇 NUEVO: Si el usuario está lejos del final (en el catálogo) y el Checkout está abierto, ciérralo
-      if (!cercaDelFinal && isCheckoutOpen) {
+      // Si el usuario hace scroll hacia ARRIBA y el Checkout está abierto, ciérralo
+      const scrollHaciaArriba = scrollY < prevScrollY.current
+      if (scrollHaciaArriba && isCheckoutOpen && !cercaDelFinal) {
         cerrarCheckout()
       }
+
+      prevScrollY.current = scrollY
     }
 
     handleScroll()
