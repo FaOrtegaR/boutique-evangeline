@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /carrito
 Disallow: /checkout
+
+Sitemap: https://laboutiquedevangeline.cl/sitemap.xml
