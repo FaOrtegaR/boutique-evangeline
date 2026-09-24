@@ -18,7 +18,7 @@ function StickyCart() {
 
       setIsVisible(!cercaDelFinal)
 
-      // 👇 Solo cerramos el Checkout si el usuario hace scroll hacia arriba Y está en el catálogo
+      // Solo cerramos el Checkout si el usuario hace scroll hacia arriba Y está en el catálogo
       // Usamos un timeout para no cerrarlo en el mismo instante en que se abre
       if (scrollY < 1000 && isCheckoutOpen) {
         clearTimeout(timeoutRef.current)
