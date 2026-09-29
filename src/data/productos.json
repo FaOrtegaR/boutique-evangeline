@@ -33,7 +33,7 @@
     "id": 4,
     "nombre": "Panda de Peluche",
     "precio": 10000,
-    "imagenes": ["panda-1.jpg"],
+    "imagenes": ["panda-1.jpg", "panda-2.jpg"],
     "descripcionCorta": "Suavecito, tierno y adorable. ¡Simula que corre!",
     "descripcionLarga": "Suavecito, tierno y demasiado adorable 🥹✨\n¡Y lo mejor es que simula que corre! 🐼💨 Un panda que definitivamente llama la atención jajaja 💕\n\n🎀 45 cm\n\nPerfecto para regalar 🎁, coleccionar o simplemente tener un nuevo compañerito para abrazar 💕",
     "categoria": "Peluches",
@@ -41,16 +41,6 @@
   },
   {
     "id": 5,
-    "nombre": "Set de Ampollas SKIN1004 Madagascar Centella",
-    "precio": 20000,
-    "imagenes": ["set-ampollas-1.jpg", "set-ampollas-2.jpg"],
-    "descripcionCorta": "Set de 4 mini ampollas para probar la línea SKIN1004.",
-    "descripcionLarga": "🌿 Set de Ampollas SKIN1004 Madagascar Centella 🌿\n\nUn hermoso set con 4 mini ampollas para darle a tu piel distintos tipos de cuidado 💕 Ideal para probar la línea SKIN1004 y descubrir cuál se adapta mejor a tu piel.\n\n💧 ¿Para qué sirve cada una?\n\n🤍 Centella Ampoule\nAyuda a hidratar, calmar y cuidar la piel sensible. Su ingrediente principal es la Centella Asiática de Madagascar.\n\n🌸 Tone Brightening Capsule Ampoule\nAyuda a mejorar la apariencia del tono desigual, aportar luminosidad y mantener la piel hidratada. Contiene niacinamida y ácido tranexámico.\n\n💗 Tea-Trica Relief Ampoule\nPensada para piel con exceso de oleosidad o tendencia a imperfecciones. Ayuda a calmar la piel y a cuidar la apariencia de los poros.\n\n🌿 Poremizing Fresh Ampoule\nAyuda con el cuidado de los poros y el exceso de oleosidad, dejando una sensación fresca y ligera.\n\n🎁 ¿Qué incluye?\n✨ 1 set con 4 mini ampollas SKIN1004\n✨ Formato ideal para probar diferentes productos o llevar de viaje.",
-    "categoria": "Skincare",
-    "destacado": false
-  },
-  {
-    "id": 6,
     "nombre": "Biodance Real Deep Mask",
     "precio": 4000,
     "imagenes": ["biodance-1.jpg", "biodance-2.jpg", "biodance-3.jpg"],
@@ -60,7 +50,7 @@
     "destacado": true
   },
   {
-    "id": 7,
+    "id": 6,
     "nombre": "SKIN1004 Poremizing Quick Clay Stick Mask",
     "precio": 12000,
     "imagenes": ["clay-stick-1.jpg", "clay-stick-2.jpg"],
@@ -70,7 +60,7 @@
     "destacado": false
   },
   {
-    "id": 8,
+    "id": 7,
     "nombre": "SKIN1004 Tone Brightening Capsule Ampoule",
     "precio": 10000,
     "imagenes": ["tone-brightening-1.jpg", "tone-brightening-2.jpg"],
@@ -80,33 +70,33 @@
     "destacado": false
   },
   {
-    "id": 9,
-    "nombre": "SKIN1004 Madagascar Centella Travel Kit",
-    "precio": 15000,
-    "imagenes": ["travel-kit-1.jpg", "travel-kit-2.jpg"],
-    "descripcionCorta": "Set de cuidado facial de 5 pasos. Ideal para viaje.",
-    "descripcionLarga": "✨ SKIN1004 MADAGASCAR CENTELLA TRAVEL KIT ✨\n🌿 Set de cuidado facial de 5 pasos con Centella Asiática de Madagascar.\n\nIdeal para probar la rutina SKIN1004 o llevar tus productos favoritos de viaje ✈️💗\n\n🧴 ¿Cómo se usa?\n\n1️⃣ Limpiador 🫧\nAplica sobre el rostro húmedo, masajea suavemente y enjuaga.\n\n2️⃣ Tónico 💦\nDespués de limpiar, aplica sobre el rostro con las manos y da suaves toquecitos.\n\n3️⃣ Ampolla 🌿\nAplica unas gotas sobre el rostro y masajea hasta absorber.\n\n4️⃣ Crema hidratante 🤍\nAplica una pequeña cantidad para hidratar y sellar la rutina.\n\n5️⃣ Protector solar ☀️\nÚsalo como último paso de la rutina durante el día. Reaplica según sea necesario.",
-    "categoria": "Skincare",
-    "destacado": false
-  },
-  {
-    "id": 10,
-    "nombre": "Set NIDA Hidratación y Revitalización",
-    "precio": 10000,
-    "imagenes": ["nida-1.jpg"],
-    "descripcionCorta": "Dúo de crema hidratante y contorno de ojos revitalizante.",
-    "descripcionLarga": "✨ SET NIDA HIDRATACIÓN Y REVITALIZACIÓN ✨\n\n💗 ¡Dúo ideal para complementar tu rutina de skincare!\n\n🧴 Crema hidratante\nAyuda a mantener la piel hidratada, suave y confortable.\n👉 Aplicar sobre el rostro limpio y masajear suavemente hasta absorber.\n\n👀 Contorno de ojos revitalizante\nIdeal para cuidar y refrescar la delicada zona del contorno de ojos.\n👉 Aplicar una pequeña cantidad alrededor de los ojos y dar suaves toquecitos hasta absorber.\n\n✨ Perfecto para una rutina sencilla de hidratación y cuidado diario.\n\n🎀 ¡Llévate ambos productos en un solo set!",
-    "categoria": "Skincare",
-    "destacado": false
-  },
-  {
-    "id": 11,
+    "id": 8,
     "nombre": "Peluche Frutilla Musical",
     "precio": 8000,
     "imagenes": ["frutilla-1.jpg", "frutilla-2.jpg"],
     "descripcionCorta": "Peluche de frutilla que reproduce música al tocarlo.",
     "descripcionLarga": "🍓🎶 ¡PELUCHE FRUTILLA MUSICAL! 🎶🍓\n\n✨ ¡El peluchito que está de moda! ✨\n\nEste adorable peluche de frutilla toma de las manos y al tocar su cuerpo comienza a reproducir música 🎵🥰\n\n🍓 Suave y adorable\n🎶 ¡Produce música al tocarlo!\n🤝 Se agarra de las manitos\n🎁 Ideal para regalar o sorprender a los peques\n\n🍓💕 ¡Llévate tu frutillita musical!",
     "categoria": "Peluches",
+    "destacado": false
+  },
+  {
+    "id": 9,
+    "nombre": "NIDA Contorno de Ojos Revitalizante",
+    "precio": 12000,
+    "imagenes": ["nida-eye-cream-1.jpg", "nida-eye-cream-2.jpg", "nida-eye-cream-3.jpg", "nida-eye-cream-4.jpg"],
+    "descripcionCorta": "Mimo especial para la delicada zona de tus ojos.",
+    "descripcionLarga": "NIDA CONTORNO DE OJOS REVITALIZANTE ✨\n\n🌷 ¡Un mimo especial para la delicada zona de tus ojos!\n\n💗 Diseñado para complementar el cuidado diario del contorno de ojos, ayudando a mantener la piel hidratada y con una apariencia fresca y revitalizada.\n\n🧴 Modo de uso:\nAplicar una pequeña cantidad alrededor del contorno de ojos, dando suaves toquecitos con la yema de los dedos hasta su absorción. Usar mañana y noche.\n\n🎀 ¡Incorpora este cuidado especial a tu rutina de belleza!",
+    "categoria": "Skincare",
+    "destacado": false
+  },
+  {
+    "id": 10,
+    "nombre": "NIDA Crema Hidratante",
+    "precio": 10000,
+    "imagenes": ["nida-crema-1.jpg", "nida-crema-2.jpg", "nida-crema-3.jpg"],
+    "descripcionCorta": "Hidratación y frescura para tu rutina diaria de skincare.",
+    "descripcionLarga": "NIDA CREMA HIDRATANTE 🌸\n\n💗 ¡Dale a tu piel la hidratación que merece!\n\n✨ Ayuda a mantener la piel suave, hidratada y con una sensación de frescura. Ideal para complementar tu rutina diaria de skincare.\n\n🧴 Modo de uso:\nAplicar sobre el rostro limpio, distribuyendo suavemente con movimientos circulares hasta su completa absorción.\n\n🎀 ¡Mima tu piel todos los días con Nida! 💕",
+    "categoria": "Skincare",
     "destacado": false
   }
 ]
