@@ -2,7 +2,7 @@ import ModalesLegales from './ModalesLegales'
 
 function Footer() {
   return (
-    <footer id="envios" className="bg-pink-200 py-8 px-4 mt-12">
+    <footer id="envios" className="bg-pink-200 py-8 px-4">
       <div className="max-w-5xl mx-auto text-center">
         
         <h4 className="text-pink-700 font-bold text-lg mb-2">

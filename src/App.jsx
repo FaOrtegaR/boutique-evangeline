@@ -11,14 +11,19 @@ import StickyCart from './components/StickyCart'
 
 function App() {
   return (
-    <div className="min-h-screen bg-pink-50 pb-20 md:pb-0">
+    <div className="min-h-screen bg-pink-50 flex flex-col">
       <Header />
-      <Hero />
-      <Novedades />
-      <Catalogo />
-      <Historia />
-      <Checkout />
+
+      <main className="flex-grow pb-20 md:pb-0">
+        <Hero />
+        <Novedades />
+        <Catalogo />
+        <Historia />
+        <Checkout />
+      </main>
+
       <Footer />
+
       <ModalCarrito />
       <ModalProducto />
       <StickyCart />
